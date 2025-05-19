@@ -1,0 +1,89 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recover Your Hacked Facebook Account</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=San+Francisco:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    .scenarios {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px 0;
+    }
+    .card {
+      width: 100%;
+      margin: 0;
+    }
+    .card:nth-child(4) {
+      order: 4;
+    }
+    @media (min-width: 768px) {
+      .scenarios {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+      .card {
+        flex: 1 1 calc(50% - 20px);
+        min-width: 300px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .card {
+        flex: 1 1 calc(25% - 20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar fade-in">
+    <div class="container">
+      <a href="index.html" class="logo">RecoveryHelper</a>
+      <ul class="nav-links">
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero fade-in delay-1">
+    <div class="container">
+      <h1>Recover Your Hacked Facebook Account</h1>
+      <p class="sub">Simple, clear steps to help you regain control.</p>
+      <a href="https://www.idcare.org/healthcheck" target="_blank" rel="noopener noreferrer" title="Go to IDCARE Health Check" class="btn-primary pulse">Book a Cyber Advisory Session with IDcare</a>
+    </div>
+  </header>
+  <section class="scenarios container">
+    <div class="card slide-in delay-2">
+      <h2>Scenario 1</h2>
+      <p>My email/phone is there and Multi-Factor authentication is not applied</p>
+      <a href="scenario1.html" class="btn-secondary">Go</a>
+    </div>
+    <div class="card slide-in delay-3">
+      <h2>Scenario 2</h2>
+      <p>My email/phone is there and Multi-Factor authentication is applied</p>
+      <a href="scenario2.html" class="btn-secondary">Go</a>
+    </div>
+    <div class="card slide-in delay-4">
+      <h2>Scenario 3</h2>
+      <p>My email/phone is deleted, I have completely lost access</p>
+      <a href="scenario3.html" class="btn-secondary">Go</a>
+    </div>
+    <div class="card slide-in delay-5">
+      <h2>Post Recovery</h2>
+      <p>What to do after you regain access to your account</p>
+      <a href="post-recovery.html" class="btn-secondary">Go</a>
+    </div>
+  </section>
+
+  <footer id="footer" class="fade-in delay-5">
+    <div class="container">
+      <p>&copy; 2025 RecoveryHelper. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
