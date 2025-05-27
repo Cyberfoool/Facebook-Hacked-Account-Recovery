@@ -1,6 +1,7 @@
 **Recovery methods for small and medium businesses on social media**
 
 **Project Overview**
+
 Welcome to the repository for my Master of Cyber Security thesis, "Recovery methods for small and medium businesses on social media" 
 
 This project addresses a critical and often overlooked challenge for Small and Medium-sized Businesses (SMBs): how to quickly and effectively recover compromised social media accounts. In today's digital landscape, social media platforms are indispensable tools for SMBs to connect with customers and drive sales.  However, this reliance also exposes them to significant cyberattack risks, with account takeovers affecting over 100,000 accounts in 2023 alone.  These breaches can lead to substantial financial losses (estimated at $25,000 per incident) and severe operational disruptions due to slow and inadequate platform recovery processes. 
